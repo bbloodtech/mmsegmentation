@@ -23,7 +23,7 @@ from mmseg.utils import (collect_env, get_device, get_root_logger,
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a segmentor')
-    parser.add_argument('-config', default='configs\mobilenet_v3\lraspp_m-v3-d8_512x1024_320k_cityscapes.py', help='train config file path')
+    parser.add_argument('-config', default='configs\mobilenet_v3\lraspp_m-v3-d1_512x1024_320k_color_wood.py', help='train config file path')
     parser.add_argument('--work-dir', help='the dir to save logs and models')
     parser.add_argument(
         '--load-from', help='the checkpoint file to load weights from')
